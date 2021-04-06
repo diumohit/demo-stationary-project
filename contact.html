@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Contact Stationary</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+
+
+  <!-- Navbar starts  -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand text-success" href="index.html">
+      <i class="fa fa-camera" aria-hidden="true"></i>
+      Demo Stationary
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="services.html">Action</a>
+            <a class="dropdown-item" href="services.html">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="services.html">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- navbar ends  -->
+
+  <div class="container bg-light py-3 px-5">
+
+    <h2 class="display-4 text-center text-success text-bold">Contact Us</h2><br>
+    <form action="" class="was-validated">
+      <div class="form-group">
+        <input type="text" name="" id="" class="form-control" placeholder="Enter name here"
+          aria-describedby="helpId" required>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Please feelup the field Properly</div>
+      </div>
+      <div class="form-group">
+        <input type="email" name="" id="" class="form-control" placeholder="Enter email address"
+          aria-describedby="helpId" required>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Please feel up the field the fiedl Properly</div>
+      </div>
+      <div class="form-group">
+        <input type="number" name="" id="" class="form-control" placeholder="Enter phone number here"
+          aria-describedby="helpId" required>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Please feel up the field Properly</div>
+      </div>
+      <div class="form-group">
+        <textarea type="text-field" name="" id="" class="form-control" placeholder="Write your comments here"
+          aria-describedby="helpId" rows="3" required></textarea>
+        <div class="valid-feedback">Looks Good</div>
+        <div class="invalid-feedback">Please feel up the field Properly</div>
+      </div>
+      <center><button class="btn btn-success btn-lg" style="width: 200px;" >Submit</button></center>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script>
+    // Disable form submissions if there are invalid fields
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Get the forms we want to add validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
